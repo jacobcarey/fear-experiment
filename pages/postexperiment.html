@@ -1,0 +1,92 @@
+<html><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+
+    <title>DISSERTATION — postexperiment</title>
+
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet">
+
+    <link href="../css/layout.css" media="screen" rel="stylesheet">
+
+</head>
+<body lang="en-GB">
+
+<div class="container">
+    <header class="row">
+        <article class="col-md-12">
+            <h1 class="cntr">Debrief</h1>
+        </article>
+    </header>
+
+
+    <section class="row">
+        <p class="ml-auto col-md-8 mr-auto"><strong>Thank you for taking part in this survey.</strong><br>
+
+            During the survey you entered details onto a mock-up market research page. Just so you are aware, this was a
+            simulation and the information that you entered is for research purposes only.
+
+            We ensure that the information that you entered is <em>completely anonymous and confidential</em>.<br><br>
+
+            Please complete this short debrief section about your choice of answers and then press the submit button.
+        </p>
+        <article class="ml-auto col-md-8 mr-auto" style="background-color: ghostwhite;">
+            <form action="/dissertation/postexperiment" class="auto-ml col-md-12 auto-mr" method="post" role="form">
+
+                <div class="form-group">
+                    <label>Did you leave any boxes unticked during the market research, and if so why? <span> * </span></label>
+                    <textarea class="form-control" id="marketresearch" minlength="1" name="marketresearch"
+                              rows="6"></textarea>
+                </div>
+
+
+                <div class="form-group">
+                    <label>How often do you go think about your privacy online?<span> * </span></label>
+                    <div class="radio">
+                        <label><input name="concern" required="" type="radio" value="notatall">
+                            Very slightly or not at all</label>
+                    </div>
+                    <div class="radio">
+                        <label><input name="concern" required="" type="radio" value="little">
+                            Little</label>
+                    </div>
+                    <div class="radio">
+                        <label><input name="concern" required="" type="radio" value="moderately">
+                            Moderately</label>
+                    </div>
+                    <div class="radio">
+                        <label><input name="concern" required="" type="radio" value="quiteabit">
+                            Quite a bit</label>
+                    </div>
+
+                    <div class="radio">
+                        <label><input name="concern" required="" type="radio" value="always">
+                            Always</label>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label>How did the video make you feel? <span> * </span></label>
+                    <textarea class="form-control" id="fear" minlength="1" name="fear" rows="6"></textarea>
+                </div>
+
+
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+        </article>
+    </section>
+
+
+    <footer class="row">
+        <article class="col-md-12">
+            <p class="center-block"></p>
+        </article>
+    </footer>
+</div>
+
+</body>
+</html>
